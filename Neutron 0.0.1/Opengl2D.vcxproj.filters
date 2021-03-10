@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Envelopes">
+      <UniqueIdentifier>{8d1324d8-b54b-409b-bc6f-11cdf0e61dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Envelopes">
+      <UniqueIdentifier>{4f3c994c-791f-4215-8e12-74c0b338ca54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{dcd67642-e205-49a5-9b78-10c544929a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{cb83e4f4-a56d-4a87-87d5-c0dfd6953e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NBT">
+      <UniqueIdentifier>{7b397445-a830-4b7a-ae86-af7d9641c830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NBT">
+      <UniqueIdentifier>{103b64f4-9b87-4f20-b028-f76a0f0995e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{3f6d2a4c-bfd4-4e40-bfcf-4766f69a0a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Animation">
+      <UniqueIdentifier>{41848a85-1bfa-4370-907d-f537e8b4a238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\GUI">
+      <UniqueIdentifier>{e728b060-9777-4a69-a7b3-bd9aaf01a7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{634f4ea3-decc-4d76-b0ad-5174216400c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\GUI">
+      <UniqueIdentifier>{1544630e-9ab4-4d4a-b9a0-27a328afad46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Graphics">
+      <UniqueIdentifier>{e5a2718c-6ec2-4196-b874-d0f51f3fa266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Graphics">
+      <UniqueIdentifier>{d2d3db96-fc3b-45fa-8931-40fd41fe3dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Neutron">
+      <UniqueIdentifier>{98a5ac6a-41ff-4ef8-bdf6-e844f0ede12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Neutron">
+      <UniqueIdentifier>{fc119fef-f1ca-4447-ae01-da907bb891bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Title.h">
+      <Filter>Header Files\Envelopes</Filter>
+    </ClInclude>
+    <ClInclude Include="Envenlope.h">
+      <Filter>Header Files\Envelopes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ByteArrayTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ByteTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\CompoundTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\DoubleTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FloatTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\IntArrayTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\IntTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ListTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\LongArrayTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\LongTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ShortTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\Tag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FileChooser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\StringTag.h">
+      <Filter>Header Files\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueAnimation.h">
+      <Filter>Header Files\Utils\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\c++\L\Lab\Lab\stb_image.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files\Utils\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Header Files\Utils\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="bfr.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="shd.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialImage.h">
+      <Filter>Header Files\Utils\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorImage.h">
+      <Filter>Header Files\Utils\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Quark.h">
+      <Filter>Header Files\Neutron</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron.h">
+      <Filter>Header Files\Neutron</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonQuark.h">
+      <Filter>Header Files\Neutron</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseDetector.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Source Files\Envelopes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ByteArrayTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ByteTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\CompoundTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\DoubleTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\FloatTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\IntArrayTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\IntTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ListTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\LongArrayTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\LongTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ShortTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\StringTag.cpp">
+      <Filter>Source Files\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files\Utils\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButton.cpp">
+      <Filter>Source Files\Utils\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialImage.cpp">
+      <Filter>Source Files\Utils\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorImage.cpp">
+      <Filter>Source Files\Utils\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron.cpp">
+      <Filter>Source Files\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronModes.cpp">
+      <Filter>Source Files\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronPasses.cpp">
+      <Filter>Source Files\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronProcessor.cpp">
+      <Filter>Source Files\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronWorld.cpp">
+      <Filter>Source Files\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="Quark.cpp">
+      <Filter>Source Files\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseDetector.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonQuark.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\shaders\shader.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\colstotex.shader" />
+    <None Include="res\shaders\text.shader" />
+    <None Include="res\shaders\passthrough.shader" />
+    <None Include="res\shaders\base.shader" />
+    <None Include="res\shaders\colorstexture.shader" />
+    <None Include="res\shaders\planet.shader" />
+    <None Include="res\shaders\button.shader" />
+  </ItemGroup>
+</Project>

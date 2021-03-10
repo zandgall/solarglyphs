@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{588C6D3A-2F64-4C10-94FB-495A672A82D1}</ProjectGuid>
+    <RootNamespace>Opengl2D</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Neutron 0.0.1</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>X:\c++\_lib\opengl19.32\include;X:\c++\_lib\zlib-1.2.11\lib;X:\c++\_lib;$(IncludePath)</IncludePath>
+    <LibraryPath>X:\c++\_lib\zlib-1.2.11\dll;X:\c++\_lib\opengl19.32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>X:\c++\_lib\opengl19.32\include;X:\c++\_lib\zlib-1.2.11\lib;X:\c++\_lib;$(IncludePath)</IncludePath>
+    <LibraryPath>X:\c++\_lib\zlib-1.2.11\dll;X:\c++\_lib\opengl19.32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>X:\c++\_lib\opengl19.32\include;X:\c++\_lib\zlib-1.2.11\lib;X:\c++\_lib;$(IncludePath)</IncludePath>
+    <LibraryPath>X:\c++\_lib\zlib-1.2.11\dll;X:\c++\_lib\opengl19.32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>X:\c++\_lib\zlib-1.2.11\dll;X:\c++\_lib\opengl19.32\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>X:\c++\_lib\opengl19.32\include;X:\c++\_lib\zlib-1.2.11\lib;X:\c++\_lib;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc140-mt.lib;freetype.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc140-mt.lib;freetype.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc140-mt.lib;freetype.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>"SDK Path\Include"</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>"SDK Path\Lib"</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc140-mt.lib;freetype.lib;zlibwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ButtonQuark.cpp" />
+    <ClCompile Include="FileIO\ByteArrayTag.cpp" />
+    <ClCompile Include="FileIO\ByteTag.cpp" />
+    <ClCompile Include="FileIO\CompoundTag.cpp" />
+    <ClCompile Include="FileIO\DoubleTag.cpp" />
+    <ClCompile Include="FileIO\FloatTag.cpp" />
+    <ClCompile Include="FileIO\IntArrayTag.cpp" />
+    <ClCompile Include="FileIO\IntTag.cpp" />
+    <ClCompile Include="FileIO\ListTag.cpp" />
+    <ClCompile Include="FileIO\LongArrayTag.cpp" />
+    <ClCompile Include="FileIO\LongTag.cpp" />
+    <ClCompile Include="FileIO\ShortTag.cpp" />
+    <ClCompile Include="FileIO\StringTag.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="GraphQuark.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MouseDetector.cpp" />
+    <ClCompile Include="Neutron.cpp" />
+    <ClCompile Include="NeutronFrame.cpp" />
+    <ClCompile Include="NeutronModes.cpp" />
+    <ClCompile Include="NeutronPasses.cpp" />
+    <ClCompile Include="NeutronProcessor.cpp" />
+    <ClCompile Include="NeutronWorld.cpp" />
+    <ClCompile Include="PageQuark.cpp" />
+    <ClCompile Include="ParagraphQuark.cpp" />
+    <ClCompile Include="ParticleQuark.cpp" />
+    <ClCompile Include="Quark.cpp" />
+    <ClCompile Include="SerialImage.cpp" />
+    <ClCompile Include="SliderQuark.cpp" />
+    <ClCompile Include="SpaceObject.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="VectorImage.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\c++\L\Lab\Lab\stb_image.h" />
+    <ClInclude Include="ButtonQuark.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="Envenlope.h" />
+    <ClInclude Include="FileIO\ByteArrayTag.h" />
+    <ClInclude Include="FileIO\ByteTag.h" />
+    <ClInclude Include="FileIO\CompoundTag.h" />
+    <ClInclude Include="FileIO\DoubleTag.h" />
+    <ClInclude Include="FileIO\FileChooser.h" />
+    <ClInclude Include="FileIO\FloatTag.h" />
+    <ClInclude Include="FileIO\IntArrayTag.h" />
+    <ClInclude Include="FileIO\IntTag.h" />
+    <ClInclude Include="FileIO\ListTag.h" />
+    <ClInclude Include="FileIO\LongArrayTag.h" />
+    <ClInclude Include="FileIO\LongTag.h" />
+    <ClInclude Include="FileIO\ShortTag.h" />
+    <ClInclude Include="FileIO\StringTag.h" />
+    <ClInclude Include="FileIO\Tag.h" />
+    <ClInclude Include="GraphQuark.h" />
+    <ClInclude Include="MouseDetector.h" />
+    <ClInclude Include="Neutron.h" />
+    <ClInclude Include="PageQuark.h" />
+    <ClInclude Include="ParagraphQuark.h" />
+    <ClInclude Include="ParticleQuark.h" />
+    <ClInclude Include="Quark.h" />
+    <ClInclude Include="SerialImage.h" />
+    <ClInclude Include="main.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="SliderQuark.h" />
+    <ClInclude Include="SpaceObject.h" />
+    <ClInclude Include="SpaceObjectSelector.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="ValueAnimation.h" />
+    <ClInclude Include="VectorImage.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\shaders\shader.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\base.shader" />
+    <None Include="res\shaders\button.shader" />
+    <None Include="res\shaders\colorcorrection.shader" />
+    <None Include="res\shaders\colorstexture.shader" />
+    <None Include="res\shaders\colstotex.shader" />
+    <None Include="res\shaders\skybox.shader" />
+    <None Include="res\shaders\text.shader" />
+    <None Include="res\shaders\instancing.shader" />
+    <None Include="res\shaders\passthrough.shader" />
+    <None Include="res\shaders\PIEGraph.shader" />
+    <None Include="res\shaders\planet.shader" />
+    <None Include="res\shaders\planetglow.shader" />
+    <None Include="res\shaders\post.shader" />
+    <None Include="res\shaders\post\BLOOMclip.shader" />
+    <None Include="res\shaders\post\blur.shader" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

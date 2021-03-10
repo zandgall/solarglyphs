@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\IntArrayTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\IntTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ListTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\LongArrayTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\LongTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\FloatTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ByteArrayTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ByteTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\CompoundTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\DoubleTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\ShortTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\StringTag.cpp">
+      <Filter>cpp\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="Quark.cpp">
+      <Filter>cpp\gutils</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>cpp\content</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>cpp\content</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseDetector.cpp">
+      <Filter>cpp\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialImage.cpp">
+      <Filter>cpp\gutils</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorImage.cpp">
+      <Filter>cpp\gutils</Filter>
+    </ClCompile>
+    <ClCompile Include="Neutron.cpp">
+      <Filter>cpp\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronModes.cpp">
+      <Filter>cpp\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronPasses.cpp">
+      <Filter>cpp\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronProcessor.cpp">
+      <Filter>cpp\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronWorld.cpp">
+      <Filter>cpp\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceObject.cpp">
+      <Filter>cpp\content</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderQuark.cpp">
+      <Filter>cpp\gutils\quarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonQuark.cpp">
+      <Filter>cpp\gutils\quarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleQuark.cpp">
+      <Filter>cpp\gutils\quarks</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutronFrame.cpp">
+      <Filter>cpp\Neutron</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphQuark.cpp">
+      <Filter>cpp\gutils\quarks</Filter>
+    </ClCompile>
+    <ClCompile Include="ParagraphQuark.cpp">
+      <Filter>cpp\gutils\quarks</Filter>
+    </ClCompile>
+    <ClCompile Include="PageQuark.cpp">
+      <Filter>cpp\gutils\quarks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Neutron.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ByteArrayTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ByteTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\CompoundTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\DoubleTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FloatTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\IntArrayTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\IntTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ListTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\LongArrayTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\LongTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\ShortTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\StringTag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\Tag.h">
+      <Filter>h\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialImage.h">
+      <Filter>h\gutils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\c++\L\Lab\Lab\stb_image.h">
+      <Filter>h\gutils</Filter>
+    </ClInclude>
+    <ClInclude Include="Quark.h">
+      <Filter>h\gutils</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueAnimation.h">
+      <Filter>h\gutils</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorImage.h">
+      <Filter>h\gutils</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>h\gutils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FileChooser.h">
+      <Filter>h\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseDetector.h">
+      <Filter>h\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Envenlope.h">
+      <Filter>h\content</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>h\content</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>h\content</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonQuark.h">
+      <Filter>h\gutils\quarks</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceObject.h">
+      <Filter>h\content</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleQuark.h">
+      <Filter>h\gutils\quarks</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderQuark.h">
+      <Filter>h\gutils\quarks</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphQuark.h">
+      <Filter>h\gutils\quarks</Filter>
+    </ClInclude>
+    <ClInclude Include="ParagraphQuark.h">
+      <Filter>h\gutils\quarks</Filter>
+    </ClInclude>
+    <ClInclude Include="PageQuark.h">
+      <Filter>h\gutils\quarks</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceObjectSelector.h">
+      <Filter>h\content</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\base.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\button.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\colorstexture.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\colstotex.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\passthrough.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\planet.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\instancing.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\post.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\post\BLOOMclip.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\post\blur.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\colorcorrection.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\planetglow.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\PIEGraph.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\text.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="res\shaders\skybox.shader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="h">
+      <UniqueIdentifier>{36faf267-6e8f-4ab0-bf45-c85043fe6aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{698402aa-8323-4cbe-93c2-ada4537e8f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h\NBT">
+      <UniqueIdentifier>{92ab95ed-e1d3-4a36-88a4-9c2cfdebff05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h\gutils">
+      <UniqueIdentifier>{fa51e800-798e-4957-84cd-b21676a4e078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h\utils">
+      <UniqueIdentifier>{b4047910-1932-4052-b4fc-3b499c0daedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h\content">
+      <UniqueIdentifier>{984b874a-5cc3-49e1-abe8-705471d1a6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\content">
+      <UniqueIdentifier>{5c80fc4f-869a-4095-9a3f-34b63ea4957c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\gutils">
+      <UniqueIdentifier>{d9113be6-0d0b-41da-bc7f-6ba95f8dcbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\NBT">
+      <UniqueIdentifier>{282d414e-9a31-4449-91ee-cef1479742e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\utils">
+      <UniqueIdentifier>{d54051ac-6df2-45d4-a24b-d5d63abb066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\Neutron">
+      <UniqueIdentifier>{02764990-fbe3-4bed-94e6-c91674e489a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{885555e5-6413-4480-ad88-d3a1f2455f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h\gutils\quarks">
+      <UniqueIdentifier>{d6a26c14-c512-40f9-9587-f2b0a544d868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp\gutils\quarks">
+      <UniqueIdentifier>{6d014961-bc4b-4ffa-a76b-9cfe4c100d07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\shaders\shader.shader">
+      <Filter>shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
